@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86106" started-at="2019-08-02T23:38:26Z" finished-at="2019-08-02T23:39:52Z">
+    <groups>
+      <group name="car">
+        <method signature="test1.login()[pri:0, instance:Test.test1@457e2f02]" name="login" class="Test.test1"/>
+        <method signature="test1.postaprof()[pri:0, instance:Test.test1@457e2f02]" name="postaprof" class="Test.test1"/>
+        <method signature="test1.submit()[pri:0, instance:Test.test1@457e2f02]" name="submit" class="Test.test1"/>
+      </group> <!-- car -->
+    </groups>
+    <test name="Default test" duration-ms="86106" started-at="2019-08-02T23:38:26Z" finished-at="2019-08-02T23:39:52Z">
+      <class name="Test.test1">
+        <test-method status="PASS" signature="car()[pri:0, instance:Test.test1@457e2f02]" name="car" duration-ms="25" started-at="2019-08-02T16:38:26Z" finished-at="2019-08-02T16:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method status="PASS" signature="cars()[pri:0, instance:Test.test1@457e2f02]" name="cars" duration-ms="3" started-at="2019-08-02T16:38:26Z" finished-at="2019-08-02T16:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cars -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Test.test1@457e2f02]" name="login" duration-ms="85127" started-at="2019-08-02T16:38:26Z" finished-at="2019-08-02T16:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="postaprof()[pri:0, instance:Test.test1@457e2f02]" name="postaprof" duration-ms="278" started-at="2019-08-02T16:39:52Z" finished-at="2019-08-02T16:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postaprof -->
+        <test-method status="PASS" signature="submit()[pri:0, instance:Test.test1@457e2f02]" name="submit" duration-ms="634" started-at="2019-08-02T16:39:52Z" finished-at="2019-08-02T16:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+      </class> <!-- Test.test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
